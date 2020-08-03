@@ -36,8 +36,8 @@ class App extends Component {
     const styles = {
       white: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
       black: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
-      topBarHeight: 40,
-      footerMenuHeight: 50,
+      headerHeight: 40,
+      footerHeight: 50,
       showFooterMenuText: windowWidth > 500,
       showSidebar: windowWidth > 768,
       sidebarWidth: windowWidth < 1100 ? 50 : 150,

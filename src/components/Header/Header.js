@@ -9,7 +9,8 @@ const Header = ({ styles }) => {
     alignItems: "center",
     width: "100%",
     height: styles.headerHeight,
-    backgroundColor: "#fff",
+    backgroundColor: "#343434",
+    color: styles.white(0.87),
     borderBottom: "1px solid #d8d8d8",
     fontWeight: "bold",
     padding: "0px 20px",
@@ -18,9 +19,9 @@ const Header = ({ styles }) => {
 
   return (
     <div style={headerStyle}>
-      <span>{`Hi`}</span>
+      <span>Logo</span>
       Application
-      <span>{`*`}</span>
+      <span>Profile?</span>
     </div>
   );
 };
